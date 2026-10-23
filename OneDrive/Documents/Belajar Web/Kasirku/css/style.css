@@ -83,5 +83,29 @@ header {
 }
 
 main {
-  max-width: 12;
+  max-width: 1280px;
+  margin: 24px auto;
+  padding: 0 24px;
+  width: 100%;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.sub-breadcrumb {
+  font-size: 12px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #64748b;
+}
+
+.grid-2col {
+  display: flex;
+  gap: 24px;
+  grid-template-columns: 1fr 380px;
 }
