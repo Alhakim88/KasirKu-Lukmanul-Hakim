@@ -31,3 +31,4 @@ console.log(produkUtama.nama);
 
 console.log(Number("2500"));
 console.log(Number("abc"));
+
